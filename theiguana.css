@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+@media screen and (max-width: 500px) {
+   div{
+       width: 90% !important;
+   }
+   img{
+       width: 90% !important;
+   }
+}
+
 body {
     background-image: linear-gradient(45deg, #00e62e 25%, #9feba3 25%, #9feba3 50%, #00e62e 50%, #00e62e 75%, #9feba3 75%, #9feba3 100%);
 background-size: 56.57px 56.57px;
@@ -27,7 +36,6 @@ img {
     width: 40%;
     float: right;
     margin: 4%;
-
 }
 h1 {
     color: #F0F0F0 ;
